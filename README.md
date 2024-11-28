@@ -18,7 +18,7 @@ You can refer to the structure of this project for your new Python project. More
 ## Requirements
 
 - Homebrew
-- Python 3.11 ([Setup guide](https://lunit.atlassian.net/wiki/x/ZwFEu))
+- Python 3.12 ([Setup guide](https://lunit.atlassian.net/wiki/x/ZwFEu))
 - Poetry
 - Docker ([Setup guide](https://lunit.atlassian.net/wiki/x/DYMdw))
 - Node.js
