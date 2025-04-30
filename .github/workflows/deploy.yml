@@ -9,7 +9,8 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Version to checkout
-        run: echo ${{ github.event.client_payload.ref }}
+        run: |
+          echo "Version to checkout: ${{ github.event.client_payload.ref }}"
       - name: Checkout
         uses: actions/checkout@v4
         with:
