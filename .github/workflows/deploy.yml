@@ -14,6 +14,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          fetch-tags: true
           ref: ${{ github.event.client_payload.version }}
       - name: Install Python
         uses: actions/setup-python@v5
